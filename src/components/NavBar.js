@@ -39,7 +39,7 @@ export default function NavBar() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://i.imgur.com/5TKdzkB.png"
+                src="https://i.imgur.com/cHl5mmp.png"
                 className="h-24 w-auto -my-12"
               />
             </Link>
@@ -151,7 +151,7 @@ export default function NavBar() {
               <Link to="/" className="-m-1.5 p-1.5">
                 <img
                   alt=""
-                  src="https://i.imgur.com/5TKdzkB.png"
+                  src="https://i.imgur.com/cHl5mmp.png"
                   className="h-24 w-auto -my-12"
                 />
               </Link>
@@ -247,7 +247,7 @@ export default function NavBar() {
             <span className="sr-only">Your Company</span>
             <img
               alt=""
-              src="https://i.imgur.com/5TKdzkB.png"
+              src="https://i.imgur.com/cHl5mmp.png"
               className="h-24 w-auto -my-12"
             />
           </Link>
@@ -369,7 +369,7 @@ export default function NavBar() {
             <Link to="/" className="-m-1.5 p-1.5">
               <img
                 alt=""
-                src="https://i.imgur.com/5TKdzkB.png"
+                src="https://i.imgur.com/cHl5mmp.png"
                 className="h-24 w-auto -my-12"
               />
             </Link>
