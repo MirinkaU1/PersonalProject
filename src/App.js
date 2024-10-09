@@ -7,13 +7,13 @@ import {
 } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import Signup from "./components/Signup";
-import Login from "./components/Login";
-import Home from "./components/Home";
-import Offers from "./components/Offers";
-import OfferDetails from "./components/OfferDetails";
-import Dashboard from "./components/Dashboard";
-import NotFound from "./components/NotFound";
+import Signup from "./components/pages/Signup";
+import Login from "./components/pages/Login";
+import Home from "./components/pages/Home";
+import Offers from "./components/pages/Offers";
+import OfferDetails from "./components/pages/OfferDetails";
+import Dashboard from "./components/pages/Dashboard";
+import NotFound from "./components/pages/NotFound";
 import { AuthProvider } from "./context/AuthContext";
 
 const App = () => {

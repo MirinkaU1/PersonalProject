@@ -1,7 +1,7 @@
 import React, { useEffect, useContext } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import { AuthContext } from "../context/AuthContext";
-import subscriptions from "../data/subscriptions.json";
+import { AuthContext } from "../../context/AuthContext";
+import subscriptions from "../../data/subscriptions.json";
 
 const OfferDetails = () => {
   const { id } = useParams();

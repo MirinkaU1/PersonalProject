@@ -3,7 +3,7 @@
 import React, { useState, useContext } from "react";
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/20/solid";
-import { AuthContext } from "../context/AuthContext";
+import { AuthContext } from "../../context/AuthContext";
 
 const Dashboard = () => {
   const [alert, setAlert] = useState(null);

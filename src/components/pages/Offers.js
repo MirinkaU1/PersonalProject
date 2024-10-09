@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import subscriptions from "../data/subscriptions.json";
+import subscriptions from "../../data/subscriptions.json";
 
 const Offers = () => {
   const [searchTerm, setSearchTerm] = useState("");
