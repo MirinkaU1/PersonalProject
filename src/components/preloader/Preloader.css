@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Bukhari+Script&display=swap");
+
+.preloader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.preloader-letter {
+  font-family: "Bukhari Script", standard;
+  font-size: 4rem;
+  margin: 0;
+  opacity: 0;
+  animation: dropDown 1s ease-out forwards, fadeOut 1s 1.5s forwards;
+  color: #333;
+  position: relative;
+}
+
+.M {
+  animation-delay: 0s;
+}
+
+.S {
+  animation-delay: 0.5s;
+}
+
+@keyframes dropDown {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+}

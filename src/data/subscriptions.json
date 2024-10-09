@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Netflix",
+    "description": "Accès illimité à des films et séries.",
+    "price_min": 1000,
+    "status": "Actif",
+    "category": "Streaming",
+    "variants": [
+      {
+        "name": "Basic",
+        "price": 1000,
+        "description": "Qualité standard, 1 écran.",
+        "videoQuality": "Équitable",
+        "resolution": "480p",
+        "supportedDevices": ["Mobile", "Tablet"],
+        "email": "basic_user@example.com",
+        "password": "basic_password",
+        "status": "Actif",
+        "availability": "Disponible"
+      },
+      {
+        "name": "Standard",
+        "price": 2000,
+        "description": "Qualité HD, 2 écrans.",
+        "videoQuality": "Bonne",
+        "resolution": "1080p",
+        "supportedDevices": ["Mobile", "Tablet", "TV"],
+        "email": "standard_user@example.com",
+        "password": "standard_password",
+        "status": "Actif",
+        "availability": "Disponible"
+      },
+      {
+        "name": "Premium",
+        "price": 3000,
+        "description": "Qualité Ultra HD, 4 écrans.",
+        "videoQuality": "Excellente",
+        "resolution": "4K",
+        "supportedDevices": ["Mobile", "Tablet", "TV", "Computer"],
+        "email": "premium_user@example.com",
+        "password": "premium_password",
+        "status": "Actif",
+        "availability": "Disponible"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Spotify",
+    "description": "Écoutez de la musique sans publicité.",
+    "price_min": 500,
+    "status": "Actif",
+    "category": "Musique",
+    "variants": [
+      {
+        "name": "Free",
+        "price": 0,
+        "description": "Avec publicités.",
+        "videoQuality": "N/A",
+        "resolution": "N/A",
+        "supportedDevices": ["Mobile", "Tablet", "Computer"],
+        "email": "free_user@example.com",
+        "password": "free_password",
+        "status": "Actif",
+        "availability": "Disponible"
+      },
+      {
+        "name": "Premium",
+        "price": 500,
+        "description": "Sans publicités, qualité supérieure.",
+        "videoQuality": "Haute",
+        "resolution": "N/A",
+        "supportedDevices": ["Mobile", "Tablet", "Computer"],
+        "email": "premium_user@example.com",
+        "password": "premium_password",
+        "status": "Actif",
+        "availability": "Disponible"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Disney+",
+    "description": "Profitez des films et séries Disney.",
+    "price_min": 1500,
+    "status": "Expiré",
+    "category": "Streaming",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 1500,
+        "description": "Qualité HD, 2 écrans.",
+        "videoQuality": "Bonne",
+        "resolution": "1080p",
+        "supportedDevices": ["Mobile", "Tablet", "TV"],
+        "email": "standard_user@example.com",
+        "password": "standard_password",
+        "status": "Expiré",
+        "availability": "Indisponible"
+      },
+      {
+        "name": "Premium",
+        "price": 2500,
+        "description": "Qualité Ultra HD, 4 écrans.",
+        "videoQuality": "Excellente",
+        "resolution": "4K",
+        "supportedDevices": ["Mobile", "Tablet", "TV", "Computer"],
+        "email": "premium_user@example.com",
+        "password": "premium_password",
+        "status": "Expiré",
+        "availability": "Indisponible"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Prime Video",
+    "description": "Regardez vos animés populaires.",
+    "price": 1500,
+    "category": "Streaming",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 1500,
+        "description": "Qualité HD, 2 écrans.",
+        "videoQuality": "Bonne",
+        "resolution": "1080p",
+        "supportedDevices": ["Mobile", "Tablet", "TV"],
+        "email": "standard_user@example.com",
+        "password": "standard_password",
+        "status": "Expiré",
+        "availability": "Indisponible"
+      },
+      {
+        "name": "Premium",
+        "price": 2500,
+        "description": "Qualité Ultra HD, 4 écrans.",
+        "videoQuality": "Excellente",
+        "resolution": "4K",
+        "supportedDevices": ["Mobile", "Tablet", "TV", "Computer"],
+        "email": "premium_user@example.com",
+        "password": "premium_password",
+        "status": "Expiré",
+        "availability": "Indisponible"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Crunchyroll",
+    "description": "Regardez des films et séries populaires.",
+    "price": 1500,
+    "category": "Streaming",
+    "variants": [
+      {
+        "name": "Standard",
+        "price": 1500,
+        "description": "Qualité HD, 2 écrans.",
+        "videoQuality": "Bonne",
+        "resolution": "1080p",
+        "supportedDevices": ["Mobile", "Tablet", "TV"],
+        "email": "standard_user@example.com",
+        "password": "standard_password",
+        "status": "Expiré",
+        "availability": "Indisponible"
+      },
+      {
+        "name": "Premium",
+        "price": 2500,
+        "description": "Qualité Ultra HD, 4 écrans.",
+        "videoQuality": "Excellente",
+        "resolution": "4K",
+        "supportedDevices": ["Mobile", "Tablet", "TV", "Computer"],
+        "email": "premium_user@example.com",
+        "password": "premium_password",
+        "status": "Expiré",
+        "availability": "Indisponible"
+      }
+    ]
+  }
+]
