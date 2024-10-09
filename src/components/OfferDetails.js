@@ -187,7 +187,7 @@ const OfferDetails = () => {
         </div>
       </div>
       {/* Carousel pour la version mobile */}
-      <div className="lg:hidden md:hidden carousel carousel-center bg-neutral rounded-box max-w-[26rem] space-x-4 p-4">
+      <div className="lg:hidden md:hidden carousel carousel-center bg-neutral rounded-box max-w-full space-x-4 p-4">
         <div className="carousel-item mx-3">
           {offer.variants.map((variant, index) => (
             <div

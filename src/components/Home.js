@@ -63,43 +63,45 @@ const Home = () => {
       <section className="py-8 px-10 bg-gray-100">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Nos Services</h2>
-          <div className="flex text center items-center justify-center gap-8">
+          <div className="grid grid-cols-2 place-items-center lg:flex text-center items-center justify-center gap-8">
             <div className="">
               <img
                 src="./img/logo/netflix_logo.png"
                 alt="Netflix"
-                className="w-32 h-auto mb-4"
+                className="w-32 h-auto"
               />
             </div>
             <div className="">
               <img
                 src="./img/logo/spotify_logo.png"
                 alt="Netflix"
-                className="w-32 h-auto mb-4"
+                className="w-32 h-auto"
               />
             </div>
             <div className="">
               <img
                 src="./img/logo/disneyplus_logo.png"
                 alt="Netflix"
-                className="w-32 h-auto mb-4"
+                className="w-32 h-auto"
               />
             </div>
             <div className="">
               <img
                 src="./img/logo/crunchyroll_logo.png"
                 alt="Netflix"
-                className="w-32 h-auto mb-4"
+                className="w-32 h-auto"
               />
             </div>
             <div className="">
               <img
                 src="./img/logo/primevideo_logo.png"
                 alt="Netflix"
-                className="w-32 h-auto mb-4"
+                className="w-32 h-auto"
               />
             </div>
-            {/* autres services */}
+            <div className="lg:hidden">
+              <p>Et bien d'autres...</p>
+            </div>
           </div>
         </div>
       </section>
